@@ -1,0 +1,25 @@
+ul {
+  list-style: disc;
+}
+
+.terms-sublist {
+  list-style-type: lower-alpha;
+  padding-left: 24px;
+}
+
+.terms-sublist li::marker {
+  content: '(' counter(list-item, lower-alpha) ') ';
+}
+
+.terms-roman-list {
+  list-style: none;
+  counter-reset: roman;
+}
+
+.terms-roman-list li {
+  counter-increment: roman;
+}
+
+.terms-roman-list li::before {
+  content: "(" counter(roman, lower-roman) ") ";
+}
