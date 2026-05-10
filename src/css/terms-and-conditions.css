@@ -1,0 +1,54 @@
+.terms-list {
+  list-style-type: decimal;
+  padding-left: 24px;
+}
+
+.terms-sublist {
+  list-style-type: lower-alpha;
+  padding-left: 24px;
+}
+
+.terms-roman-list {
+  list-style-type: lower-roman;
+  padding-left: 24px;
+}
+
+.terms-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.terms-subtitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.terms-date,
+.terms-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .terms-title {
+    font-size: 36px;
+
+  }
+
+  .terms-date,
+  .terms-text {
+
+    font-size: 16px;
+
+  }
+}
