@@ -1,22 +1,14 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-
-/* Sections style */
 @import url('./header.css');
 @import url('./header-additional.css');
 @import url('./hero.css');
-/* @import url('./about.css');
+@import url('./about.css');
 @import url('./how-to-play.css');
-@import url('./features.css'); */
+@import url('./swiper.css');
+@import url('./features.css');
 @import url('./back-link.css');
 @import url('./terms-and-conditions.css');
 @import url('./privacy-policy.css');
-/* @import url('./footer.css'); */
+@import url('./footer.css');

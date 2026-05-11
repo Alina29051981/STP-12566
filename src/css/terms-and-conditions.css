@@ -42,13 +42,10 @@
 @media screen and (min-width: 1440px) {
   .terms-title {
     font-size: 36px;
-
   }
 
   .terms-date,
   .terms-text {
-
     font-size: 16px;
-
   }
 }
