@@ -9,12 +9,12 @@ const swiper = new Swiper('.mySwiper', {
 
   breakpoints: {
     320: {
-      slidesPerView: 1.25,
-      centeredSlides: true,
+      slidesPerView: 'auto',
+      centeredSlides: false,
     },
 
     1440: {
-      slidesPerView: 4.25,
+      slidesPerView: 4.15,
       centeredSlides: false,
     },
   },

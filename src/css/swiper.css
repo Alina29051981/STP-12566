@@ -14,13 +14,24 @@ body {
   z-index: 1;
 }
 
+.swiper {
+  overflow: hidden;
+  cursor: grab;
+  touch-action: pan-y;
+}
+
+.swiper:active {
+  cursor: grabbing;
+}
+
 .swiper-slide {
   border-radius: 4px;
-  width: 416px;
-  height: 249px;
+  width: 312px;
+  height: 312px;
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .content {
@@ -29,8 +40,17 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 204px;
+
   height: 204px;
+}
+
+.swiper-uppertext,
+.swiper-title,
+.swiper-text {
+  display: flex;
+  justify-content: center;
+  max-width: 160px;
+  text-align: center;
 }
 
 .swiper-uppertext {
@@ -92,6 +112,12 @@ body {
 @media screen and (min-width: 1440px) {
   .swiper {
     display: none;
+  }
+
+  .swiper-uppertext,
+  .swiper-title,
+  .swiper-text {
+    max-width: none;
   }
 
   .desktop-grid {

@@ -19,6 +19,7 @@ body {
 .features-swiper {
   overflow: hidden;
   cursor: grab;
+  touch-action: pan-y;
 }
 
 .features-swiper:active {
