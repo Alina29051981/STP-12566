@@ -60,6 +60,16 @@
   color: #c7c7c7;
 }
 
+.reviews__author {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
 
 @media screen and (min-width: 1440px) {
   .reviews {
@@ -94,4 +104,9 @@
   .reviews__text {
     font-size: 14px;
   }
+  
+  .reviews__author {
+    display: none;
+  }
+
 }
