@@ -1,6 +1,8 @@
 .hero {
-  max-width: 320px;
-  padding: 72px 0;
+  width: 100%;
+  height: 810px;
+  max-width: 375px;
+  padding: 450px 0 40px;
   margin: 0 auto;
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #131313 100%),
     url(../img/image-39.png);
@@ -17,11 +19,17 @@
 }
 
 .container-hero {
-  margin-top: 448px;
+  margin-top: 0;
   padding: 0;
 }
 
+.container-hero-title {
+  width: 290px;
+}
 
+.container-hero-subtitle {
+  width: 332px;
+}
 
 .hero-uppertext {
   font-family: var(--font-family);
@@ -37,11 +45,9 @@
 .hero-title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 0.89;
-  color: #fff;
-  max-width: 216px;
-  margin: 0 auto;
+  color: #ddf9e4;
   margin-bottom: 24px;
 }
 
@@ -55,25 +61,21 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
-  max-width: 216px;
-  margin: 0 auto;
-  margin-bottom: 6px;
 }
 
 .hero-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
-  line-height: 2.61818;
+  line-height: 1.5;
   color: #c7c7c7;
-  margin-bottom: 24px;
+  margin-top: 6px;
 }
 
 .hero-button {
   border-radius: 5px;
   border: 1px solid #a6a6a6;
   display: block;
-  margin: auto;
   width: 198px;
   height: 56px;
   font-weight: 500;
@@ -82,14 +84,15 @@
   background-color: #000;
   color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 24px;
 }
-
 
 @media screen and (min-width: 1440px) {
   .hero {
     max-width: 1440px;
     width: 100%;
-    padding: 188px 0;
+    height: 895px;
+    padding: 110px 0;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #131313 100%),
       url(../img/image-42.png);
   }
@@ -101,13 +104,22 @@
     }
   }
 
+  .container-hero-title {
+    width: 450px;
+  }
+
+  .container-hero-subtitle {
+    width: 520px;
+  }
+
   .hero-uppertext {
 
-    margin-bottom: 8px;
+    margin: 436px 0 8px;
   }
 
   .hero-title {
 
+    font-size: 64px;
     margin-bottom: 52px;
   }
 
@@ -115,8 +127,10 @@
     margin-bottom: 8px;
   }
 
-  .container-grop {
+  .container-grop-hero {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
   }
 }

@@ -2,3 +2,7 @@
   display: flex;
   justify-content: center;
 }
+
+.back-link:hover {
+  color: #0f8030;
+}
