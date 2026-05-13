@@ -1,6 +1,17 @@
+.terms-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
 .terms-list {
   list-style-type: decimal;
   padding-left: 24px;
+}
+
+.terms-item {
+  margin-bottom: 16px;
 }
 
 .terms-sublist {
@@ -8,24 +19,18 @@
   padding-left: 24px;
 }
 
-.terms-roman-list {
-  list-style-type: lower-roman;
-  padding-left: 24px;
-}
-
 .terms-title {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
-  line-height: 1.5;
   color: #fff;
+  margin-top: 16px;
 }
 
 .terms-subtitle {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -34,21 +39,28 @@
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.6;
   color: #fff;
 }
 
+a[href*="adr.org"],
+a[href^="mailto:"] {
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 1440px) {
   .terms-title {
-    font-size: 36px;
-
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 8px;
   }
 
+  .terms-subtitle,
   .terms-date,
   .terms-text {
-
     font-size: 16px;
+  }
 
+  .terms-item {
+    margin-bottom: 16px;
   }
 }
