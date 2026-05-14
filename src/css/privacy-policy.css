@@ -21,7 +21,6 @@
   color: #fff;
 }
 
-
 .privacy-text,
 .privacy-item {
   font-family: var(--font-family);
@@ -41,7 +40,6 @@
     margin-top: 24px;
     margin-bottom: 8px;
   }
-
 
   .privacy-text,
   .privacy-item {
