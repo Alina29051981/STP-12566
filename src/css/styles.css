@@ -10,7 +10,7 @@
 @import url('./swiper.css');
 @import url('./features.css');
 @import url('./characters.css');
-@import url('./gallery.css');
+
 @import url('./reviews.css');
 /* @import url('./faq.css'); */
 @import url('./contact.css');
@@ -18,7 +18,7 @@
 @import url('./terms-and-conditions.css');
 @import url('./privacy-policy.css');
 
-/* @import url('./footer.css'); */
+ @import url('./footer.css');
   
 
 
