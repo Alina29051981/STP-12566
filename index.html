@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script type="module" crossorigin src="/STP-12566/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/STP-12566/assets/styles-4CQXjpPG.css">
+  <link rel="stylesheet" crossorigin href="/STP-12566/assets/styles-nBFYaOyF.css">
 </head>
 
 <body>
@@ -160,7 +160,7 @@
     <section class="swiper-section">
   <div class="container">
 
-    <div class="swiper mySwiper">
+    <div class="swiper" data-swiper>
       <div class="swiper-wrapper">
 
         <div class="swiper-slide step step--1">
@@ -245,7 +245,7 @@
 
     <h2 class="features-title">Here's why you'll get hooked</h2>
 
-    <div class="features-swiper mySwiper">
+    <div class="features-swiper" data-features-swiper>
       <div class="features-wrapper swiper-wrapper">
 
         <div class="swiper-slide features-slide">
@@ -337,7 +337,7 @@
 
     <h2 class="gallery-title">Action and attitude</h2>
 
-    <div class="gallery-swiper mySwiper">
+    <div class="gallery-swiper" data-gallery-swiper>
       <div class="gallery-wrapper swiper-wrapper">
 
         <div class="swiper-slide gallery-slide">
@@ -444,8 +444,8 @@
 
       <div class="faq-accordion">
 
-        <div class="faq-item">
-          <div class="faq-header">
+        <div class="faq-item" data-faq-item data-visible="close">
+          <div class="faq-header" data-faq-header>
             <p class="faq-question">Is the game story-driven?</p>
 
             <button class="faq-toggle" type="button">
@@ -455,14 +455,15 @@
             </button>
           </div>
 
-          <p class="faq-answer">
-            Yeah, there's definitely story stuff with the characters as you go along.
-          </p>
+          <div class="faq-answer">
+            <div class="faq-answer-text">
+              Yeah, there's definitely story stuff with the characters as you go along.
+            </div>
+          </div>
         </div>
 
-
-        <div class="faq-item">
-          <div class="faq-header">
+        <div class="faq-item" data-faq-item data-visible="close">
+          <div class="faq-header" data-faq-header>
             <p class="faq-question">Is it beginner-friendly?</p>
 
             <button class="faq-toggle" type="button">
@@ -472,14 +473,15 @@
             </button>
           </div>
 
-          <p class="faq-answer">
-            Totally! Anyone can pick it up, but it gets trickier as you go.
-          </p>
+          <div class="faq-answer">
+            <div class="faq-answer-text">
+              Totally! Anyone can pick it up, but it gets trickier as you go.
+            </div>
+          </div>
         </div>
 
-
-        <div class="faq-item">
-          <div class="faq-header">
+        <div class="faq-item" data-faq-item data-visible="close">
+          <div class="faq-header" data-faq-header>
             <p class="faq-question">Do characters affect gameplay?</p>
 
             <button class="faq-toggle" type="button">
@@ -489,14 +491,15 @@
             </button>
           </div>
 
-          <p class="faq-answer">
-            They enhance the experience and add humor.
-          </p>
+          <div class="faq-answer">
+            <div class="faq-answer-text">
+              They enhance the experience and add humor.
+            </div>
+          </div>
         </div>
 
-
-        <div class="faq-item">
-          <div class="faq-header">
+        <div class="faq-item" data-faq-item data-visible="close">
+          <div class="faq-header" data-faq-header>
             <p class="faq-question">Are levels fast-paced?</p>
 
             <button class="faq-toggle" type="button">
@@ -506,14 +509,15 @@
             </button>
           </div>
 
-          <p class="faq-answer">
-            Yes. The game focuses on quick and dynamic play.
-          </p>
+          <div class="faq-answer">
+            <div class="faq-answer-text">
+              Yes. The game focuses on quick and dynamic play.
+            </div>
+          </div>
         </div>
 
-
-        <div class="faq-item">
-          <div class="faq-header">
+        <div class="faq-item" data-faq-item data-visible="close">
+          <div class="faq-header" data-faq-header>
             <p class="faq-question">Can I play in short sessions?</p>
 
             <button class="faq-toggle" type="button">
@@ -523,9 +527,11 @@
             </button>
           </div>
 
-          <p class="faq-answer">
-            Yes. Levels are designed for quick access.
-          </p>
+          <div class="faq-answer">
+            <div class="faq-answer-text">
+              Yes. Levels are designed for quick access.
+            </div>
+          </div>
         </div>
 
       </div>
