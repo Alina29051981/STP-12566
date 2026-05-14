@@ -1,17 +1,17 @@
-const items = document.querySelectorAll('.faq-item');
+const faqItemsEl = document.querySelectorAll('[data-faq-item]');
 
-items.forEach(item => {
-  const header = item.querySelector('.faq-header');
+faqItemsEl.forEach(item => {
+  const headerEl = item.querySelector('[data-faq-header]');
 
-  header.addEventListener('click', () => {
-    const isActive = item.classList.contains('active');
+  headerEl.addEventListener('click', () => {
+    const isOpen = item.dataset.visible === 'open';
 
-    items.forEach(el => {
-      el.classList.remove('active');
+    faqItemsEl.forEach(el => {
+      el.dataset.visible = 'close';
     });
 
-    if (!isActive) {
-      item.classList.add('active');
+    if (!isOpen) {
+      item.dataset.visible = 'open';
     }
   });
 });

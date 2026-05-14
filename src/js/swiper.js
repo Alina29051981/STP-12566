@@ -1,21 +1,20 @@
-const swiper = new Swiper('.mySwiper', {
-  spaceBetween: 24,
-  grabCursor: true,
+const swiperEl = document.querySelector('[data-swiper]');
 
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
+if (swiperEl) {
+  new Swiper(swiperEl, {
+    spaceBetween: 24,
+    grabCursor: true,
 
-  breakpoints: {
-    320: {
-      slidesPerView: 'auto',
-      centeredSlides: false,
+    breakpoints: {
+      320: {
+        slidesPerView: 'auto',
+        centeredSlides: false,
+      },
+
+      1440: {
+        slidesPerView: 'auto',
+        centeredSlides: false,
+      },
     },
-
-    1440: {
-      slidesPerView: 4.15,
-      centeredSlides: false,
-    },
-  },
-});
+  });
+}

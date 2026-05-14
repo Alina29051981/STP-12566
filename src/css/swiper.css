@@ -9,24 +9,24 @@ body {
 
 .swiper-section {
   width: auto;
-  padding-top: 64px;
+  padding: 64px 0 0 16px;
   position: relative;
   z-index: 1;
 }
 
-.swiper {
+[data-swiper] {
   overflow: hidden;
   cursor: grab;
   touch-action: pan-y;
 }
 
-.swiper:active {
+[data-swiper]:active {
   cursor: grabbing;
 }
 
 .swiper-slide {
   border-radius: 4px;
-  width: 312px;
+  width: 295px;
   height: 312px;
   display: flex;
   justify-content: center;

@@ -9,21 +9,21 @@ body {
 
 .features {
   width: auto;
-  padding: 64px 0;
+  padding: 64px 0 64px 16px;
 }
 
-.swiper-wrapper {
-  display: flex;
-}
-
-.features-swiper {
+[data-features-swiper] {
   overflow: hidden;
   cursor: grab;
   touch-action: pan-y;
 }
 
-.features-swiper:active {
+[data-features-swiper]:active {
   cursor: grabbing;
+}
+
+.swiper-wrapper {
+  display: flex;
 }
 
 .features-slide {
@@ -34,6 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   user-select: none;
+  margin-top: 24px;
 }
 
 .features-slide img {
@@ -96,5 +97,9 @@ body {
   .features-title {
     width: 636px;
     font-size: 48px;
+  }
+
+  .features-slide {
+    margin-top: 52px;
   }
 }
