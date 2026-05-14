@@ -84,10 +84,6 @@
   padding: 0 16px;
 }
 
-.faq {
-  scroll-margin-top: 85px;
-}
-
 .faq-item[data-visible='open'] .faq-toggle {
   transform: rotate(180deg);
 }
@@ -100,6 +96,10 @@
 
 .faq-item[data-visible='open'] .faq-answer-text {
   padding: 16px;
+}
+
+.faq {
+  scroll-margin-top: 85px;
 }
 
 @media screen and (min-width: 1440px) {
