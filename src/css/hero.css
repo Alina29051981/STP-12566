@@ -76,8 +76,8 @@
   border-radius: 5px;
   border: 1px solid #a6a6a6;
   display: block;
-  width: 198px;
-  height: 56px;
+  width: 196px;
+  height: 58px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -85,6 +85,15 @@
   color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 24px;
+}
+
+.hero-button img {
+  transition: filter 0.3s ease;
+}
+
+.hero-button:hover img {
+  filter:
+    drop-shadow(0 0 16px rgba(221, 249, 228, 0.8)) drop-shadow(0 0 24px rgba(101, 239, 135, 0.5));
 }
 
 @media screen and (min-width: 1440px) {

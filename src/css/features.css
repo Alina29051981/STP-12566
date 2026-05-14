@@ -9,7 +9,7 @@ body {
 
 .features {
   width: auto;
-  padding: 0 0 52px 0;
+  padding: 64px 0;
 }
 
 .swiper-wrapper {
@@ -89,6 +89,10 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .features {
+    padding: 118px 0;
+  }
+
   .features-title {
     width: 636px;
     font-size: 48px;
