@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  height: 895px;
+  min-height: 100vh;
+
 
   display: flex;
   align-items: flex-end;
