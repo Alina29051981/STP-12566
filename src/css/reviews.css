@@ -54,14 +54,15 @@
   color: #c7c7c7;
 }
 
-.reviews {
-  scroll-margin-top: 85px;
+#reviews {
+  scroll-margin-top: 148px;
 }
 
 @media screen and (min-width: 1440px) {
   .reviews-title {
+    text-align: left;
     font-size: 40px;
-    margin-bottom: 38px;
+    margin-bottom: 52px;
     line-height: 0.76;
   }
 
@@ -78,5 +79,9 @@
 
   .reviews-text {
     width: 300px;
+  }
+
+  #reviews {
+    scroll-margin-top: 200px;
   }
 }

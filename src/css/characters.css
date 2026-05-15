@@ -51,11 +51,17 @@
 .characters-img {
   filter: drop-shadow(0 4px 62px rgba(255, 255, 255, 0.5));
   transition: filter 0.5s ease;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .characters-img:hover {
   filter:
     drop-shadow(0 0 16px rgba(221, 249, 228, 0.8)) drop-shadow(0 0 24px rgba(101, 239, 135, 0.5));
+}
+
+.characters {
+  scroll-margin-top: 148px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -65,6 +71,7 @@
     max-width: 1440px;
     width: 100%;
     padding: 110px 0;
+    scroll-margin-top: 85px;
   }
 
   .characters::before {
