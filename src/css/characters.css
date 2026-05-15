@@ -28,12 +28,15 @@
 }
 
 .characters-text {
-  width: 328px;
+  width: 100%;
+  max-width: 328px;
+
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 13px;
   line-height: 1.6;
   color: #fff;
+
   margin-top: 6px;
   text-align: center;
 }

@@ -16,6 +16,7 @@
 .container-grop-about {
   padding: 0 16px;
   width: 332px;
+  width: 100%;
 }
 
 .about-uppertext {
@@ -47,8 +48,12 @@
 }
 
 .about-img {
-  width: 375px;
-  height: 375px;
+  width: 100%;
+  max-width: 416px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 #about {
